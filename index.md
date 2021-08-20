@@ -2,7 +2,7 @@
 It is a collection of commands that a developer uses on a daily basis. I have personally switched between different commands from different tools too many times.
 Hence a collection for myself. It may help everyone else as well.
 
-There are no comments on this page, as that would be too much clutter. This page is intended for developers who are familiar with these commands.
+There are short or no comments on this page, as that would be too much clutter. This page is intended for developers who are familiar with these commands.
 
 
 ### Git Commands
