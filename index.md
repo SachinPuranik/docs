@@ -34,7 +34,7 @@ $ git stash drop stash@{0}
 ```
 ### Docker Commands
 
-```shell
+```
 $ docker system prune
 $ docker build -t denfle/proxyapi .
 $ docker volume ls
@@ -49,7 +49,7 @@ $ docker run -ti example
 ### Docker Compose
 For docker compose to work it's mandatory to have docker-compose.yml on root.
 
-```shell
+```
 $ docker-compose up
 $ docker-compose down
 ```
@@ -58,7 +58,7 @@ $ docker-compose down
 
 [kubernetes Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
-```shell
+```
 $ kubectl apply -f confluance-pvc.yaml
 $ kubectl apply -f confluance-pv.yaml
 $ kubectl delete pv {pv-name}
