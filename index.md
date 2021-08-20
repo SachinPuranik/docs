@@ -59,8 +59,9 @@ $ docker-compose down
 [kubernetes Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 ```
-$ kubectl apply -f confluance-pvc.yaml
-$ kubectl apply -f confluance-pv.yaml
+$ kubectl apply -f confluance-pvc.yaml //permanent volume claim
+$ kubectl apply -f confluance-pv.yaml //permanent volume
+$ kubectl apply -f  ingress.yaml //ingress yml
 $ kubectl delete pv {pv-name}
 $ kubectl delete pvc {pvc-name}
 $ kubectl get pod
