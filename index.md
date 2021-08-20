@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Important Commands
+This page is collection of commands which a developer uses in his daytoday life. I have personally switch too many times between different commnds from different tools. Hence a collection for myself. May help everyone as well.
 
-You can use the [editor on GitHub](https://github.com/SachinPuranik/docs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Git Commands
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```git
+$ git pull origin master , pull the master branch from origin server
+$ git add --all, Add all or selective files to git
+$ git commit -m "Message" , Commit git changes locally with comments
+$ git push  [origin master], pull the master branch from origin server
+$ git reset --hard HEAD , discard changes and reset the local tree to HEAD.
+$ git stash , stash the changes on stack
+$ git stash pop , pop the stashed changes with above command.
+$ git config -list
+$ git remote -v 
+$ git branch , list the branch
+$ git branch xxx , create new branch locally
+$ git push origin --delete branchname //Delete the branch on host
+$ git checkout xxx , switch to branch
+$ git clean -fx , to clean files from source tree
+$ git clean -fd , to clean folders from source tree
+$ git status , know the current status of git
+$ git log , print the checkin log
+$ git diff, find the diff between local chage and repo
+$ git merge , if for merging the code - needs additional params to work correctly.
+$ git stash show -p stash@{0} > 0.patch
+$ git stash pop stash@{0}
+$ git stash list
+$ git stash drop stash@{0} 
 ```
+### Docker Commands
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SachinPuranik/docs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```docker
+$ docker system prune
+$ docker build -t denfle/proxyapi .
+$ docker volume ls
+$ docker volume ls -qf dangling=true
+$ docker rmi {image-name}
+$ docker image list
+$ docker run dockerID
+$ docker container ls
+$ docker push <hub-user>/<repo-name>:<tag>
+$ docker run -ti example
+```
+Something missing? feel free to add!
