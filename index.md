@@ -45,6 +45,7 @@ $ docker run dockerID
 $ docker container ls
 $ docker push <hub-user>/<repo-name>:<tag>
 $ docker run -ti example
+$ sudo docker exec –it {container-name} /bin/bash
 ```
 ### Docker Compose
 For docker compose to work it's mandatory to have docker-compose.yml on root.
