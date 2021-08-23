@@ -73,5 +73,6 @@ $ kubectl port-forward --namespace default svc/my-postgresql 5433:5432
 $ kubectl exec --stdin --tty {pod-name} -- /bin/bash //Open bash
 $ kubectl exec --stdin --tty {pod-name} -- /bin/bash (mysqladmin status -uroot -p"${MYSQL_ROOT_PASSWORD}) //Open bash and run command
 $ kubectl logs  proxyapi -n proxyapi //-n opetion is to give namespace
+$ kubectl port-forward --namespace {namespace-name} svc/{service-name} 5433:5432 //Port forwarding 1st param local port to second in cluster
 ```
 Something missing? feel free to add!
