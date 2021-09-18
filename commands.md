@@ -76,3 +76,4 @@ $ kubectl logs  proxyapi -n proxyapi //-n opetion is to give namespace
 $ kubectl port-forward --namespace {namespace-name} svc/{service-name} 5433:5432 //Port forwarding 1st param local port to second in cluster
 ```
 Something missing? feel free to add!
+[Back Home](index.md)
