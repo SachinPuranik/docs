@@ -1,3 +1,15 @@
+# --- Basic info --- #
+
 theme: jekyll-theme-cayman
 title : ProxyAPI Documentation
 description : A excellent tool for mocking API's in a static and dynamic way
+
+
+# --- navigation bar --- #
+
+navbar-links:
+  Home: "index.md"
+  Design API:
+    - Static: "api.md"
+    - Dynamic: "lambda.md"
+  Author's home: "https://deanattali.com"
