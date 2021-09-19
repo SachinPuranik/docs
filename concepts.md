@@ -18,6 +18,13 @@
 ***DataStore*** is a small JSON which persists on the server and can be refered for generating further dynamic responses.
 
 
+## Bindings <a name="bindings"></a>
+***Bindings*** is a set of javascript objects which are available for use in the ***Processor***. Bindings provide the way to access request-params, request-headers, creating-logs, storing information , etc.
+
+
+Details list of [bindings](bindings.md) goes here.
+
+
 
 
 
