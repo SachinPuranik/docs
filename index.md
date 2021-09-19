@@ -33,6 +33,7 @@ You can use any client side tool to test your api's at your end. You can then ca
 3. Define the Processor (Like a Lambda)
 4. Define/modify/update your own small DataStore.
 5. Processor and Datastore are all related to one collection.
+
 ### Planned
 1. Request Logging system
 2. Intra socket communication (Two/More websockets communicating with each other )
