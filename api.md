@@ -11,8 +11,10 @@ A test socket client is available at &nbsp;&nbsp;
 
 ***https://proxyapi.dennisfleischmann.de/api/***myclient
 
-(**Must**) - Provide your ***collection-key*** in the first text box on the page. 
-(**Optional**) - Provide ***SSE-name*** in the second text box on the page. this is optional param. if not provided a random is generated internally , not exposed to user. hence in any of usecases when you want to refer SocketClient in your domain , use named Socket client.
+**Must** - Provide your ***collection-key*** in the first text box on the page. 
+
+
+**Optional** - Provide ***SSE-name*** in the second text box on the page. this is optional param. if not provided a random is generated internally , not exposed to user. hence in any of usecases when you want to refer SocketClient in your domain , use named Socket client.
 
 ## SSE API <a name="sse">
 Not available yet. will come up soon.
