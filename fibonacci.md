@@ -1,6 +1,6 @@
 # Collection
 *Note*
-This ideally can be obtained after workspace activation. I am mentioning it here due to current cooke issue in code.
+> This ideally can be obtained after workspace activation. I am mentioning it here due to current cooke issue in code.
 
 *Http Header*
 collection-key : 
@@ -54,5 +54,5 @@ switch(request.operation ) {
 }
 ```
 *Note*
-The values of n1 and n2 are supposed to be change based on API call.
+> The values of n1 and n2 are supposed to be change based on API call.
 ---
