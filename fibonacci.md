@@ -1,9 +1,10 @@
 [Home](index.md)
 ## Collection
+
 *Note*
 > This ideally can be obtained after workspace activation. I am mentioning it here due to current cooke issue in code.
 
-*Http Header* <br/> &nbsp; &nbsp;
+*Http Header* &nbsp; &nbsp;
 collection-key : 
 
 ## Processor
