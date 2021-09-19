@@ -8,6 +8,9 @@
     2. [Planned](#planned-features)
 3. [Concepts](concepts.md)
     1. [Workspace](concepts.md/#workspace)
+    1. [Collection](concepts.md/#collection)
+    1. [Processor](concepts.md/#processor)
+    1. [Data Store](concepts.md/#datastore)
 4. [Define API (Static/Dynamic)](api.md)
 5. [Examples](example.md)
     1. [Fibonacci](fibonacci.md)
@@ -18,7 +21,7 @@
 
 ## Introduction <a name="introduction"></a>
 
-> ProxyAPI is in ***Beta*** stage
+> ***ProxyAPI*** is in ***Beta*** stage
 
 ProxyAPI is a classic tool for software developers to Mock their API's in static and dynamic way.
 You can also use it for mocking criss-cross usecases in RESTFul API's(RESTFul), Web Sockets(WebSock) and Server Side Events (SSE).
