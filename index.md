@@ -14,18 +14,25 @@
 # Introduction <a name="introduction"></a>
 
 ProxyAPI is a classic tool for software developers to Mock their API's in static and dynamic way.
-You can also use it for mocking criscross usecases in RESTFul API's and WebSockets.
+You can also use it for mocking criss-cross usecases in RESTFul API's(RESTFul), Web Sockets(WebSock) and Server Side Events (SSE).
 
 # Testing environment <a name="environment"></a>
 
-ProxyAPI is a classic tool for software developers to Mock their API's in static and dynamic way.
-You can also use it for mocking criscross usecases in RESTFul API's and WebSockets.
+You can use any client side tool to test your api's at your end. You can then call these all api's in your application exactly the same way.
+
+1. We recommond you to use tool ***POSTMAN*** for the testing purpose. it supports both rest api and WebSock testing.
+2. While testing you need to add the ***collection-key*** header to http-header section of postman. so it can access appropriate processor/collecion/API's
+
+
 
 # Features
 
 ### Available
-1. Define the rest API's
-2. Define the Lambda (Like a Lambda)
+1. Create API collection.
+2. Add API's and functionality to collection.
+3. Define the Processor (Like a Lambda)
+4. Define/modify/update your own small DataStore.
+5. Processor and Datastore are all related to one collection.
 ### Planned
 1. Request Logging system
 2. Intra socket communication (Two/More websockets communicating with each other )
