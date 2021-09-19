@@ -1,3 +1,4 @@
+[Home](index.md)
 # Collection
 *Note*
 > This ideally can be obtained after workspace activation. I am mentioning it here due to current cooke issue in code.
@@ -53,6 +54,7 @@ switch(request.operation ) {
   "n2": 1
 }
 ```
+---
+
 *Note*
 > The values of n1 and n2 are supposed to be change based on API call.
----
