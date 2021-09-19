@@ -2,7 +2,7 @@
 
 ## Table of contents
 1. [Introduction](#introduction)
-2. [Testing environment](#environment)
+2. [Prerequisite](#prerequisite)
 3. [Features](#features)
     1. [Available](#available-features)
     2. [Planned](#planned-features)
@@ -11,10 +11,12 @@
     1. [Collection](concepts.md/#collection)
     1. [Processor](concepts.md/#processor)
     1. [Data Store](concepts.md/#datastore)
+    1. [Bindings](concepts.md/#bindings)
+    1. [Bindings Objects List](bindings.md)
 4. [Define API (Static/Dynamic)](api.md)
 5. [Examples](example.md)
-    1. [Fibonacci](fibonacci.md)
-    2. [Infiniteloop](infiniteloop.md)
+    1. [Fibonacci](examples/fibonacci.md)
+    2. [Infiniteloop](examples/infiniteloop.md)
 5. [Known Issues](#known-issues)
 4. [Generic Commands](commands.md)
 5. [Eyeota Specific](eyeota.md)
@@ -26,13 +28,15 @@
 ProxyAPI is a classic tool for software developers to Mock their API's in static and dynamic way.
 You can also use it for mocking criss-cross usecases in RESTFul API's(RESTFul), Web Sockets(WebSock) and Server Side Events (SSE).
 
-## Testing environment <a name="environment"></a>
+## Prerequisite <a name="prerequisite"></a>
 
-You can use any client side tool to test your api's at your end. You can then call these all api's in your application exactly the same way.
+You can use any client side tool to test your api's at your end. 
+
+You can then call these all api's in your application exactly the same way.
 
 1. We recommond you to use tool ***POSTMAN*** for the testing purpose. it supports both rest api and WebSock testing.
 2. While testing you need to add the ***collection-key*** header to http-header section of postman. so it can access appropriate processor/collecion/API's.
-3. Do not forget the SSE clients 
+3. While testing the Cross API scnario as in Ex. Mango Booking, the named SSE client *MangoSupplier* should be already connected to server.
 
 ## Features  <a name="features"></a>
 
@@ -52,6 +56,7 @@ You can use any client side tool to test your api's at your end. You can then ca
 5. Open API-2/3 Compliance
 6. Reliable datastore using NoSQL.
 7. Considerable improvement in the Product Defination.
+8. Removal of collection-key dependancy in http header.
 
 ## Known issues  <a name="known-issues"></a>
 1. Some issues in cookies and session. (Just use in incognito mode to avoid few)
