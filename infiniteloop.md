@@ -1,11 +1,17 @@
-# Collection
+[Home](index.md)
+
+# Infinite Loop
+
+This example shows how infinite loop written is processor will stop the execution with exception and you get the error result.
+
+## Collection
 *Note*
 This ideally can be obtained after workspace activation. I am mentioning it here due to current cooke issue in code.
 
 *Http Header*
 collection-key : 
 
-# Processor
+## Processor
 ```javascript
 switch(request.operation ) {
     case "next":
@@ -24,7 +30,10 @@ switch(request.operation ) {
   return store
 ```
 
-# Initial Data State
+## Data Store
+
+This is initial state of data store.
+
 ```javascript
 {
   "n1": 1,
@@ -53,6 +62,8 @@ switch(request.operation ) {
   "n2": 1
 }
 ```
+
 *Note*
-The values of n1 and n2 are supposed to be change based on API call.
+> The values of n1 and n2 are supposed to be change based on API call.
+
 ---

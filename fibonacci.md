@@ -1,12 +1,12 @@
 [Home](index.md)
-# Collection
+## Collection
 *Note*
 > This ideally can be obtained after workspace activation. I am mentioning it here due to current cooke issue in code.
 
 *Http Header* <br/> &nbsp; &nbsp;
 collection-key : 
 
-# Processor
+## Processor
 ```javascript
 switch(request.operation ) {
     case "next":
@@ -25,7 +25,7 @@ switch(request.operation ) {
   return store
 ```
 
-# Initial Data State
+## Initial Data State
 ```javascript
 {
   "n1": 1,
@@ -33,9 +33,9 @@ switch(request.operation ) {
 }
 ```
 
-# API's
+## API's
 
-#### 1
+##### 1
 ---
 /hello/world
 
@@ -44,7 +44,7 @@ switch(request.operation ) {
   "Message": "India Welcomes you"
 }
 ```
-#### 2
+##### 2
 ---
 /fibonacci/{next/previous/current}
 
@@ -54,7 +54,9 @@ switch(request.operation ) {
   "n2": 1
 }
 ```
----
 
 *Note*
 > The values of n1 and n2 are supposed to be change based on API call.
+
+---
+

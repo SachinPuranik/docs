@@ -1,3 +1,4 @@
+[Home](index.md)
 # Important Commands
 It is a collection of commands that a developer uses on a daily basis. I have personally switched between different commands from different tools too many times.
 Hence a collection for myself. It may help everyone else as well.
