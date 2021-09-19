@@ -13,7 +13,10 @@
     1. [Data Store](concepts.md/#datastore)
     1. [Bindings](concepts.md/#bindings)
     1. [Bindings Objects List](bindings.md)
-4. [Define API (Static/Dynamic)](api.md)
+4. [Define API](api.md)
+    1. [RESTFul API](api.md#restful)
+    1. [WebSocket API](api.md#websock)
+    1. [SSE API](api.md#sse)
 5. [Examples](example.md)
     1. [Fibonacci](examples/fibonacci.md)
     2. [Infiniteloop](examples/infiniteloop.md)
@@ -37,6 +40,9 @@ You can then call these all api's in your application exactly the same way.
 1. We recommond you to use tool ***POSTMAN*** for the testing purpose. it supports both rest api and WebSock testing.
 2. While testing you need to add the ***collection-key*** header to http-header section of postman. so it can access appropriate processor/collecion/API's.
 3. While testing the Cross API scnario as in Ex. Mango Booking, the named SSE client *MangoSupplier* should be already connected to server.
+4. Note that Your RESTFul API call on ProxyAPI server is hosted at the following URL.
+
+***https://proxyapi.dennisfleischmann.de/api/***your/own/route &nbsp;&nbsp;
 
 ## Features  <a name="features"></a>
 
@@ -57,6 +63,7 @@ You can then call these all api's in your application exactly the same way.
 6. Reliable datastore using NoSQL.
 7. Considerable improvement in the Product Defination.
 8. Removal of collection-key dependancy in http header.
+9. Dedicated IP address , where you can point your domain.
 
 ## Known issues  <a name="known-issues"></a>
 1. Some issues in cookies and session. (Just use in incognito mode to avoid few)
