@@ -9,6 +9,12 @@ Clients RESTFul API's are always hosted on below URL. Note the way client path i
 ***https://proxyapi.dennisfleischmann.de/api/*** your/own/route &nbsp;&nbsp;
 
 ## WebSocket API <a name="websock">
+WebSocket for a Client is hosted at URL below.
+
+
+ws://proxyapi.dennisfleischmann.de/ws?Collection-Key={collection-key}&Client-Key={string}
+
+
 A test socket client is available at &nbsp;&nbsp;
 
 [https://proxyapi.dennisfleischmann.de/api/myclient](https://proxyapi.dennisfleischmann.de/api/myclient)
