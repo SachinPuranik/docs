@@ -16,7 +16,7 @@
     1. [Fibonacci](fibonacci.md)
     2. [Infiniteloop](infiniteloop.md)
 4. [Generic Commands](commands.md)
-5. [Knownon Issues](#known-issues)
+5. [Known Issues](#known-issues)
 5. [Eyeota Specific](eyeota.md)
 
 ## Introduction <a name="introduction"></a>
