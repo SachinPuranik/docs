@@ -13,6 +13,7 @@
 ## Processor <a name="processor"></a>
 ***Processor*** is like AWS-lambda with limited functionality. it can be a javascript code which will be executed while generating the dynamic responces for your API's. it's a small execution unit for your workspace. 
 > Each workspace will always have it's own Processor and DataStore.
+
 ## DataStore <a name="datastore"></a>
 ***DataStore*** is a small JSON which persists on the server and can be refered for generating further dynamic responses.
 
