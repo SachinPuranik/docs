@@ -7,6 +7,7 @@
     1. [Available](#available-features)
     2. [Planned](#planned-features)
 3. [Concepts](concepts.md)
+    1. [Workspace](concepts.md/#workspace)
 4. [Define API (Static/Dynamic)](api.md)
 5. [Examples](example.md)
     1. [Fibonacci](fibonacci.md)

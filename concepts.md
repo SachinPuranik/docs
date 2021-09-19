@@ -1,3 +1,21 @@
-# Thats Lambda
-
 [Home](index.md)
+# Concepts
+
+## Workspace <a name="workspace"></a>
+***Workspace*** is your complete playgroud for the project. You can invite members to your playground and allow them to use/change it as per their roles.
+
+## Collection <a name="collection"></a>
+***Collection*** is grouping the API set to one. it also provides the 
+**collection-key** whch can be used while calling the API's from your application.Always add this collection key to your heep headers with the same name.
+***Processor*** and ***Datastore*** are mapped to this collection-key. Means API's in this collection can make use of this processor and datastore when marked as dynamic.For static API's only static API response is returned.
+
+## Processor <a name="processor"></a>
+***Processor*** is like AWS-lambda with limited functionality. it can be a javascript code which will be executed while denerating the 
+## DataStore <a name="datastore"></a>
+***DataStore*** is a small JSON which persists on the server and can be refered for generating further dynamic responses.
+
+
+
+
+
+
