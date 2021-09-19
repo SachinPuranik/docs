@@ -1,9 +1,9 @@
 [Home](index.md)
 
-## Eyeota specific notes
+## Current testing notes
 
 * You can login to system using below user name and password.
-    * user@eyeota.com
+    * user@testing.com
     * testing
 * Ideal way of using backend is to activate the specific workspace. obtain the collection key and use it while calling your api.
 * Unfortunately due to session cookie this does not work and you will not be able to change your workspace , which blocks further usage.

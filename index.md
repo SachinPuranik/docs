@@ -22,7 +22,7 @@
     2. [Infiniteloop](examples/infiniteloop.md)
 5. [Known Issues](#known-issues)
 4. [Generic Commands](commands.md)
-5. [Eyeota Specific](eyeota.md)
+5. [For testing](test.md)
 
 ## Introduction <a name="introduction"></a>
 
