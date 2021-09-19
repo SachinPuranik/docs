@@ -3,13 +3,15 @@
 TODO - Needs more documentation. But it's a click click process in admin backend.
 
 ## RESTFul API <a name="restful">
-Clients RESTFul API's are always hosted on below URL.
-***https://proxyapi.dennisfleischmann.de/api/***your/own/route &nbsp;&nbsp;
+Clients RESTFul API's are always hosted on below URL. Note the way client path is appended to host URI.
+
+
+***https://proxyapi.dennisfleischmann.de/api/*** your/own/route &nbsp;&nbsp;
 
 ## WebSocket API <a name="websock">
 A test socket client is available at &nbsp;&nbsp;
 
-***https://proxyapi.dennisfleischmann.de/api/***myclient
+[https://proxyapi.dennisfleischmann.de/api/myclient](https://proxyapi.dennisfleischmann.de/api/myclient)
 
 **Must** - Provide your ***collection-key*** in the first text box on the page. 
 
